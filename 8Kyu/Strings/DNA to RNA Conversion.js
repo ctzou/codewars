@@ -1,11 +1,7 @@
 //https://www.codewars.com/kata/5556282156230d0e5e000089/javascript
 
 function DNAtoRNA(dna) {
-   if (dna.length > 0){
-      return dna.replaceAll("T","U")
-    } else {
-      return dna
-    }
+   return dna.replace(/'t'/gi,'U')
   }
 
    //if not null, split, forEach if arrary[i]===T, assign U
