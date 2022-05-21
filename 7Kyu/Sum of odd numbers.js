@@ -16,4 +16,4 @@ function rowSumOddNumbers(n) {
    //take in input, create array with for loop of odd numbers till 
    //numbers added in other for loop
    //sum
- }
+ } 
